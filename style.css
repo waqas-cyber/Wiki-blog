@@ -2,6 +2,11 @@ body {
   font-family: Arial;
   margin: 0;
   background: #eeeeee;
+background-image:url("https://images.unsplash.com/photo-1557683316-973673baf926");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+	
 }
 nav {
   background: #222;
