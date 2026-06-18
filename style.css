@@ -125,3 +125,32 @@ footer {
 .dark-mode. post {
   background:#222;
 }
+nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:centre;
+  padding:15px;
+  border-radius:12px;
+}
+nav a {
+  text-decoration:none;
+  margin:8px;
+  font-weight:bold;
+}
+nav button {
+  padding:8px 12px;
+  border-radius:8px;
+  cursor:pointer;
+}
+@media(max-width:600px){
+  nav {
+    flex-direction:column;
+  }
+  nav a {
+    display:block;
+    margin:5px;
+  }
+  .hero h1 }
+font-size:25px;
+}
+}
