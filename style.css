@@ -213,4 +213,13 @@ button:hover {
 button {
 	transition:0.3s;
 }
+.profile a{
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.profile a:hover{
+    text-decoration:underline;
+}
 
