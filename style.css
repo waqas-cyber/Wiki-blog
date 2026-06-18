@@ -104,3 +104,15 @@ footer {
   border-radius: 8px;
   font-size:16px;
 }
+.hero {
+  text-align:center;
+  padding:40px 20px;
+  margin:20px;
+  border-raduis:15px;
+}
+.hero h1 {
+  font-size:35px;
+}
+.hero p{
+  font-size:18px;
+}
