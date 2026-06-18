@@ -202,11 +202,15 @@ footer h3{
 		opacity:0;
 		transform:translateY(20px);
 	}
+	to{
+		opacity:1;
+		transform:translateY(0);
+}
 }
 button:hover {
 	transform:scale(1.05);
 }
-to {
+button {
 	transition:0.3s;
 }
-}
+
