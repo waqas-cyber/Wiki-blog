@@ -222,4 +222,9 @@ button {
 .profile a:hover{
     text-decoration:underline;
 }
+.post-image{
+	width:100%;
+	border-radius:12px;
+	margin-bottom:15px;
+}
 
