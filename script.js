@@ -21,3 +21,15 @@ function searchPosts() {
      }
   }
 }
+let count = localStorage.getItem("visitors");
+
+if(count == null){
+    count = 0;
+}
+
+count++;
+
+localStorage.setItem("visitors", count);
+
+document.getElementById("visitorCount").innerText =
+"Visitors: " + count;
